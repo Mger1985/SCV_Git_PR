@@ -156,6 +156,16 @@ git remote add <remote> <url>
 
 где remote – это имя, которое вы дадите новому удаленному репозиторию, а url – это адрес нового удаленного репозитория.
 
+## 21. Удаление удаленного репозитория
+
+Если вам больше не нужен удаленный репозиторий, вы можете удалить его с помощью команды git remote:
+
+```
+git remote remove <remote>
+```
+
+где remote – это имя удаленного репозитория, который вы хотите удалить.
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=100&color=F7F7F7&width=435&lines=%D0%9A%D0%BE%D0%BD%D0%B5%D1%86+%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8)](https://git.io/typing-svg)
 
 ![Маскот git](https://octodex.github.com/images/mona-the-rivetertocat.png)
